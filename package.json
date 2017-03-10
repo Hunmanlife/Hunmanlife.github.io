@@ -1,0 +1,26 @@
+{
+  "name": "jack",
+  "title": "",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
+//npm init创建package.json
+//
+//
+//
+//npm i jquery --save当前项目依赖jquery，这条命令会在package.json文件中增加一个字段dependences
+//
+//
+//
+//touch .gitignore生成git要忽略的文件
+//
+//
+//
+//团队协作流程：
+//
+//1.项目经理在github上新建仓库,不需要readme.md
+//
+//2.项目经理创建本地项目目录，其中包含package.json和.gitignore,并将建好的目录push到github，此目录无法fetch
+//
+//3.小组成员clone项目到本地，执行npm i，安装package.json中的相应插件
